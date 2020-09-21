@@ -27,12 +27,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="pybo\static\bootstrap.min.css" />
+    <Content Include="pybo\static\style.css" />
     <Content Include="pybo\templates\question\question_detail.html" />
     <Content Include="pybo\templates\question\question_list.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pybo\answer_views.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pybo\question_views.py" />
@@ -49,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="pybo\" />
+    <Folder Include="pybo\static\" />
     <Folder Include="pybo\templates\" />
     <Folder Include="pybo\templates\question\" />
   </ItemGroup>

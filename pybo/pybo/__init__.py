@@ -18,6 +18,8 @@ import pybo.models
 
 import pybo.main_views
 import pybo.question_views
+import pybo.answer_views
 
 app.register_blueprint(main_views.bp)
 app.register_blueprint(question_views.bp)
+app.register_blueprint(answer_views.bp)

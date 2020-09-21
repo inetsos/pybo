@@ -340,5 +340,5 @@ ASALocalRun/
 healthchecksdb
 
 __pycache__
-env
+env/
 migrations/
