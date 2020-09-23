@@ -29,7 +29,9 @@
   <ItemGroup>
     <Content Include="pybo\static\bootstrap.min.css" />
     <Content Include="pybo\static\style.css" />
+    <Content Include="pybo\templates\base.html" />
     <Content Include="pybo\templates\question\question_detail.html" />
+    <Content Include="pybo\templates\question\question_form.html" />
     <Content Include="pybo\templates\question\question_list.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -38,6 +40,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pybo\answer_views.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pybo\forms.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pybo\question_views.py" />
