@@ -30,6 +30,7 @@
     <Content Include="pybo\static\bootstrap.min.css" />
     <Content Include="pybo\static\style.css" />
     <Content Include="pybo\templates\base.html" />
+    <Content Include="pybo\templates\navbar.html" />
     <Content Include="pybo\templates\question\question_detail.html" />
     <Content Include="pybo\templates\question\question_form.html" />
     <Content Include="pybo\templates\question\question_list.html" />
