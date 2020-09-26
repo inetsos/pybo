@@ -22,5 +22,10 @@
     <script src="{{ url_for('static', filename='jquery-3.5.1.min.js') }}"></script>
     <!-- Bootstrap JS -->
     <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+
+    <!-- 자바 스크립트 블록 -->
+    {% block script %}
+    {% endblock %}
+    <!-------end --------------->
 </body>
 </html>

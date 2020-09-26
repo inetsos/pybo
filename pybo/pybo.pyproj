@@ -29,7 +29,10 @@
   <ItemGroup>
     <Content Include="pybo\static\bootstrap.min.css" />
     <Content Include="pybo\static\style.css" />
+    <Content Include="pybo\templates\auth\login.html" />
+    <Content Include="pybo\templates\auth\signup.html" />
     <Content Include="pybo\templates\base.html" />
+    <Content Include="pybo\templates\form_errors.html" />
     <Content Include="pybo\templates\navbar.html" />
     <Content Include="pybo\templates\question\question_detail.html" />
     <Content Include="pybo\templates\question\question_form.html" />
@@ -41,6 +44,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pybo\answer_views.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pybo\auth_views.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pybo\filter.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pybo\forms.py">
@@ -62,6 +71,7 @@
     <Folder Include="pybo\" />
     <Folder Include="pybo\static\" />
     <Folder Include="pybo\templates\" />
+    <Folder Include="pybo\templates\auth\" />
     <Folder Include="pybo\templates\question\" />
   </ItemGroup>
   <ItemGroup>
