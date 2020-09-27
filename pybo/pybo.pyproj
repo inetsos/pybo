@@ -29,6 +29,7 @@
   <ItemGroup>
     <Content Include="pybo\static\bootstrap.min.css" />
     <Content Include="pybo\static\style.css" />
+    <Content Include="pybo\templates\answer\answer_form.html" />
     <Content Include="pybo\templates\auth\login.html" />
     <Content Include="pybo\templates\auth\signup.html" />
     <Content Include="pybo\templates\base.html" />
@@ -72,6 +73,7 @@
     <Folder Include="pybo\static\" />
     <Folder Include="pybo\templates\" />
     <Folder Include="pybo\templates\auth\" />
+    <Folder Include="pybo\templates\answer\" />
     <Folder Include="pybo\templates\question\" />
   </ItemGroup>
   <ItemGroup>
